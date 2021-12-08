@@ -14,5 +14,7 @@ public class Booking {
         Booking booking = new Booking();
         booking.setConfirmation(new TextConfirmation());
         booking.makeABooking("Derek");
+        booking.setConfirmation(new EmailConfirmation());
+        booking.makeABooking("Susan");
     }
 }
